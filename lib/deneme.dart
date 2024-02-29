@@ -60,7 +60,103 @@ final pi =3.14;
 const eay=20;
 const harf='a';
 
-//
+
+// yorum ekleme
+/*
+* yorum eklem
+* \t - bir tab boşluk
+* \n - bir alt satıra
+* \" - çift tırnak işaret
+* \' - tek tırnak
+* */
+//Örnek 1
+String yazi = "Mehmet |'nasılsın|' dedi";
+print(yazi);
+
+/*Örnek 2
+* sdsds
+* sd*/
+var yazi1 = "Merhaba bu |'flutter|'\n \t eğitiminde dart dilini öğrenicez";
+print(yazi1);
+
+
+//Aritmetik Operatörler
+/* +:toplama,-:çıkarma,*:çarpma,/:bölme,%:mod işlemi*/
+
+  final pi1 = 3.14;
+  var yariCap =2.0;
+  var alan = pi*yariCap*yariCap;
+  print("Daire alanı:$alan");
+
+//Denk kurma yazma dartta
+  // f = m * a
+  double m=12.5;
+  var a=10.0;
+  var f= m * a;
+  print("f: $f");
+
+
+  //Ax
+  double v =12.7;
+  double v0 =23.56;
+  double t = 3.5;
+
+  double x1=((v+v0)/2)*t;
+  print("x1 : $x1");
+
+  double x2=(v0*t)+(a*t*t)/2;
+  print("x2 : $x2");
+
+
+// kısaltma
+
+int yL =10;
+yL = yL+2;
+yL+=2;
+print(yL);
+
+yL+=2;
+print(yL);
+
+yL-=3;
+print(yL);
+
+yL++;
+
+yL*=4;
+print(yL);
+
+yL--;
+print(yL);
+
+//Tür Dönüşümü
+
+//Sayısaldan sayısala
+
+int i=42;
+double di=42.45;
+
+int sonuc1= di.toInt() ;//ondalıklı sayı tam sayıya dönüşürken . dan sonrası silinir.
+double sonuc2=i.toDouble();
+print(sonuc1);
+print(sonuc2);
+
+//Sayısaldan metine
+String str1 = i.toString();
+String str2 = d.toString();
+
+print(str1);
+print(str2);
+
+//Metinden sayısala
+String yazi15 ="34";
+String yazi25 ="34.67";
+
+int s11=int.parse(yazi15);
+double s22=double.parse(yazi25);
+
+print(s11);
+print(s22);
 
 
 }
