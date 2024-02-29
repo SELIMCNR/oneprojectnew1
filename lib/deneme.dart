@@ -159,6 +159,40 @@ print(s11);
 print(s22);
 
 
+//Konsol Girdisi
+print("Adınızı giriniz");
+
+String? isim = stdin.readLineSync();
+print("Adınız : $isim");
+
+  print("1. sayıyı giriniz");
+  int? sayi30 = int.tryParse(stdin.readLineSync()!);
+
+  print("2. sayıyı giriniz");
+  int? sayi31 = int.tryParse(stdin.readLineSync()!);
+
+  if (sayi30 != null && sayi31 != null) {
+    print("Toplam : ${sayi30 + sayi31}");
+  } else {
+    print("Geçersiz sayı girdiniz.");
+  }
+
+
+  //Karşılaştırma Operatörü
+  /*
+  * ==:eşittir,!=:eşit değil,>:büyüktür,<:küçüktür,>=:büyük eşittir,<=:küçük eşittir.
+  * */
+
+
+  /*Mantıksal Operatörler
+  * And (Ve) : her iki koşulda true. a && b gibi
+  * Or (Veya): iki koşuldan biri sağlanıyorsa true olur. (A || B) gibi
+  * Not : var olan durumun tersine dönüştürür . !(A&&B)
+  * */
+
+  
+
+
 }
 class deneme{
   int x=10; //global
